@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{0B3DF79C-0B70-461C-B1F5-1B3BF7E4F17F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Singleton", "01 - Singleton", "{0B3DF79C-0B70-461C-B1F5-1B3BF7E4F17F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{3FB53468-D1F8-4043-BE98-C2945F2A9066}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 FactoryMethod", "02 FactoryMethod", "{2D40290F-5A99-42D5-8B2C-303E72F3D8CE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - FactoryMethod", "02 - FactoryMethod", "{2D40290F-5A99-42D5-8B2C-303E72F3D8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{6951F289-4EA1-413E-8C51-709CB7E17427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{6951F289-4EA1-413E-8C51-709CB7E17427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
