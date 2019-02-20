@@ -73,23 +73,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18 - ChainOfResponsibility", "18 - ChainOfResponsibility", "{894E194B-4C8C-481D-9A41-9989AA4C0772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{C0DE7C38-A5F0-4266-96E1-F2176CEABEAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{C0DE7C38-A5F0-4266-96E1-F2176CEABEAA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19 - TemplateMethod", "19 - TemplateMethod", "{F0451A5A-DDBF-4941-BBCB-96F70E4A638A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{F59AF82E-F5C2-4B52-A3DD-1DF44E62C51A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{F59AF82E-F5C2-4B52-A3DD-1DF44E62C51A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - Interpreter", "20 - Interpreter", "{6551C64E-94AE-46DE-BAEC-5492C7CE6A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{BF74B65B-8EDF-4FAC-B651-3006AD3EFE23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{BF74B65B-8EDF-4FAC-B651-3006AD3EFE23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21 - Memento", "21 - Memento", "{489CD610-85F5-4BEF-96EA-0E28E6A927CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{C8848B16-02ED-4AB5-9C9A-C9D56F509E1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{C8848B16-02ED-4AB5-9C9A-C9D56F509E1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22 - Iterator", "22 - Iterator", "{C848E008-DAA4-458B-9FF3-26043B8D44F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{03A29FE8-F71F-494A-B348-06BC7424386C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{03A29FE8-F71F-494A-B348-06BC7424386C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - Visitor", "23 - Visitor", "{CA34FE33-1DD0-4CFA-A16E-4C50BBE8654E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{EBB48F73-E037-4DEC-BEFB-6CC498440EBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,6 +189,10 @@ Global
 		{03A29FE8-F71F-494A-B348-06BC7424386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A29FE8-F71F-494A-B348-06BC7424386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A29FE8-F71F-494A-B348-06BC7424386C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB48F73-E037-4DEC-BEFB-6CC498440EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB48F73-E037-4DEC-BEFB-6CC498440EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB48F73-E037-4DEC-BEFB-6CC498440EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB48F73-E037-4DEC-BEFB-6CC498440EBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -212,6 +220,7 @@ Global
 		{BF74B65B-8EDF-4FAC-B651-3006AD3EFE23} = {6551C64E-94AE-46DE-BAEC-5492C7CE6A86}
 		{C8848B16-02ED-4AB5-9C9A-C9D56F509E1F} = {489CD610-85F5-4BEF-96EA-0E28E6A927CF}
 		{03A29FE8-F71F-494A-B348-06BC7424386C} = {C848E008-DAA4-458B-9FF3-26043B8D44F9}
+		{EBB48F73-E037-4DEC-BEFB-6CC498440EBE} = {CA34FE33-1DD0-4CFA-A16E-4C50BBE8654E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9BE5EBA-50B4-4BF4-8022-9E5F88D8A9A7}
